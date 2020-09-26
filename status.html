@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Status</title>
+        <!-- Google Fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+ <!-- resources files-->
+   
+    <!-- Vendors files-->
+    <script src="vendors/js/jquery.js"></script>
+    
+ <!-- Bootstrap files-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  
+    <link rel="stylesheet" href="resources/css/statusStyle.css">
+
+</head>
+<body>
+          <!--START Nav SECTION-->
+          <section class="nav-section"  id="nav">
+            <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+                <!-- Brand -->
+                <a class="navbar-brand" href="#"><img src="https://scontent.fdac49-1.fna.fbcdn.net/v/t1.0-1/cp0/e15/q65/p32x32/69025694_633684343790804_640448768512098304_o.jpg?_nc_cat=110&amp;_nc_sid=dbb9e7&amp;efg=eyJpIjoiYiJ9&amp;_nc_eui2=AeH3ITK7sArmkfNlH_hYXhW1hd8XY4ZroMqF3xdjhmugytRdWrH7FCmeK_8cCXd7ReFb7N9wgQGcCvZsdHW6eJhB&amp;_nc_oc=AQm6khOgVeHsHG8azdVzV3X0XeFaGreLOaqph-HElEyWmwRAgvmBmi1YMFWFYwhvN7I&amp;_nc_ht=scontent.fdac49-1.fna&amp;_nc_tp=3&amp;oh=55a315a26f61da5c070a10d93216d8b4&amp;oe=5F085C61" class="ca cb t" alt="M.A. RiSHaD, profile picture"></a>
+              
+                <!-- Links -->
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Notifications</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Messages</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link 4</a>
+                  </li>
+              
+                  <!-- Dropdown -->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                      Dropdown Menu
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Link 1</a>
+                      <a class="dropdown-item" href="#">Link 2</a>
+                      <a class="dropdown-item" href="#">Link 3</a>
+                    </div>
+                  </li>
+                </ul>
+                <form class="form-inline" action="/action_page.php">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-success" type="submit">Search</button>
+                  </form>
+                </nav>
+                <br>
+              </nav>
+
+              <div id="logo" class="container">
+                
+                <h3>A socia Platform</h3>
+                <p>This is the platform for sharing status and post.</p>
+                </div>
+
+
+               
+          </section>
+          <!--End Nav SECTION-->
+
+          <!--START Header SECTION-->
+          <section class="header-section"  id="header">
+              
+    <div class="statusbook">
+
+        <h1>StatusBook</h1>
+    </div>
+    </section>
+      <!--End Header SECTION-->
+      <!--START Post SECTION-->
+    <section class="post-section"  id="post">
+    <!--Privecy Section-->
+    <div class="bo"><div class="bp"><span class="bq">Share with:&nbsp;</span><label class="br bs bt bu"><input id="inputvalue" value="Only me" type="submit" name="view_privacy" class="ba bv bw bs"><div class="bx"></div></label></div></div>
+
+<!--Post Section-->
+    <tbody>
+        <tr>
+            <td class="o">
+                <div class="bz">
+                    <a href="/cse.bug?refid=7">
+                        <img src="https://scontent.fdac49-1.fna.fbcdn.net/v/t1.0-1/cp0/e15/q65/p32x32/69025694_633684343790804_640448768512098304_o.jpg?_nc_cat=110&amp;_nc_sid=dbb9e7&amp;efg=eyJpIjoiYiJ9&amp;_nc_eui2=AeH3ITK7sArmkfNlH_hYXhW1hd8XY4ZroMqF3xdjhmugytRdWrH7FCmeK_8cCXd7ReFb7N9wgQGcCvZsdHW6eJhB&amp;_nc_oc=AQm6khOgVeHsHG8azdVzV3X0XeFaGreLOaqph-HElEyWmwRAgvmBmi1YMFWFYwhvN7I&amp;_nc_ht=scontent.fdac49-1.fna&amp;_nc_tp=3&amp;oh=55a315a26f61da5c070a10d93216d8b4&amp;oe=5F085C61" class="ca cb t" alt="M.A. RiSHaD, profile picture">
+                    </a>
+                </div>
+            </td>
+            <td class="u">
+                <div id='uploadx'>
+                    <textarea id="txtpost"  placeholder="What's on your mind?"  rows="5" cols="50"></textarea>
+                    
+                </div>
+            </td>
+            <td class="o">
+                <div class="submit">
+                    <button id="btnpost"  name="view_post" class="ba">POST HERE</button>
+                </div>
+            </td>
+        </tr>
+    </tbody>
+
+</section>
+    <!--End Post SECTION-->
+    <hr>
+
+    
+
+    <!--Start Status Section-->
+    <section class="status-section"  id="status">
+
+  <div id='posts'>
+      <!--here-->
+      </div> 
+<h3>Timeline</h3>
+<br>
+
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="bg-success">
+
+        </div>
+        <div id="containerx" >
+<!--Start Carousel Section-->
+<section class="carousel-section"  id="carousel">
+    <div id="demo" class="carousel slide" data-ride="carousel" >
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="resources/img/rdx1.jpg" alt="Los Angeles" >
+          </div>
+          <div class="carousel-item">
+            <img src="resources/img/rdx2.jpg" alt="Chicago" >
+          </div>
+          <div class="carousel-item">
+            <img src="resources/img/rdx3.jpg" alt="New York" >
+          </div>
+        </div>
+        
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+  </div>
+
+  </section>
+     <!--End Carousel SECTION-->
+        </div>
+      </div>
+    </div>
+  </div>
+    </section>
+
+    <!--End Status SECTION-->
+
+    <!--Start Footer Section-->
+    <footer class="footer-section">
+        <div class="row">
+          <ul>
+            <li><a href="#">Facebook </a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Google+</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Dribbble</a></li>
+            <li><a href="#">Behance</a></li>
+            <li><a href="#">GitHub</a></li>
+          </ul>
+        </div>
+      </footer>
+    <!--End Footer SECTION-->
+    <script src ="loaddata.js"></script>
+</body>
+</html>
